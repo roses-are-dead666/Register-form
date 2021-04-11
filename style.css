@@ -1,0 +1,238 @@
+body {
+    
+    background: #666699;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    
+    margin: 0; 
+    padding: 0;
+    
+}
+
+
+
+.login__box {
+    
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #262626;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+
+
+
+.logo {
+    
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #ff6680;
+    
+    
+}
+
+.box__login {
+    
+    color: #FFF;
+    border: 2px solid #666699;
+    padding: 15px 15px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 20px;
+    transition: 0.25s;
+  
+}
+
+
+
+.boxLoginBorder {
+    border-color: #ff6680;
+    color: #ff6680;
+}
+
+
+
+
+.box__login input[type = "text"], 
+.box__login input[type = "password"],
+.box__login input[type = "email"] {
+    
+    border: 0;
+    background: none;
+    outline: none;
+    color: #FFF;
+    
+}
+
+.options {
+    color: #FFF;
+    font-size: 13px;
+    
+    
+}
+
+.options a {
+    text-decoration: none;
+    color: #FFF;
+    transition: .2s linear;
+    
+}
+
+.options a:hover {
+    color: #ff6680;
+    
+  
+}
+
+.iagree {
+    color: #FFF;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+.iagree a {
+    text-decoration: none;
+    color: #ff6680;
+    transition: .2s linear;
+}
+
+.iagree a:hover {
+    color: #ff6680;
+    text-decoration: underline;
+}
+
+
+
+
+
+.login__btn {
+    
+    outline: none;
+    text-transform: uppercase;
+    color: #FFF;
+    background: none;
+    border: 2px solid #ff6680;
+    padding: 15px 15px;
+    width: 130px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+    letter-spacing: 3px;
+    transition: .2s linear;
+    
+}
+
+
+.login__btn:hover {
+    background: #666699;
+    border-color: #666699;
+}
+
+
+.footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    top: 90%;
+}
+
+
+.footer__text {
+    text-transform: capitalize;
+    color: #FFF;
+    font-size: 20px;
+
+}
+
+.footer__text span {
+    text-transform: none;
+    color: #ff6680;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.icons a {
+    color: #F2F2F2;
+    width: 50px;
+    font-size: 24px;
+    transition: .3s linear;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: #ff6680;
+}
+
+
+@media (max-width: 575px) {
+    
+    .login__box {
+        width: 250px;
+        padding: 30px;
+    }
+    
+    .logo {
+        font-size: 30px;
+    }
+    
+    .box__login {
+        padding: 10px 0;
+        font-size: 15px;
+        
+    }
+    
+    .box__login input[type = "text"], 
+    .box__login input[type = "password"],
+    .box__login input[type = "email"] {
+        font-size: 12px;
+    }
+    
+    .options {
+        font-size: 9px;
+    }
+    
+    .iagree {
+        font-size: 9px;
+    }
+    
+    .login__btn {
+        padding: 10px 10px;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+    
+    .footer__text {
+        font-size: 17px;
+    }
+    
+    .icons a {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
